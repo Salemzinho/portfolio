@@ -1,0 +1,113 @@
+/* Utils */
+*{
+    font-family: 'Montserrat';
+}
+
+.cor-verde{
+    color: #00ff5f;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/* Banner Home */
+.banner-home{
+    background-image: linear-gradient(to right top, #000000, #0a0a0a, #121212, #181818, #1d1d1d);
+    /*Trocar Gradient */   
+}
+
+.banner-home h2{
+    color: white;
+}
+
+.banner-home h1{
+    color: white;
+}
+
+.banner-home h3{
+    color: white;
+}
+
+.banner-home p{
+    color: white;
+}
+
+#btn-banner {
+    display: block;
+    padding: 15px 45px;
+    background-color: transparent;
+    color: #00ff5f;
+    border: 2px solid #00ff5f;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    font-weight: bold;
+}
+
+#btn-banner span{
+    position: relative;
+    z-index: 2;
+}
+
+#btn-banner:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #00ff5f;
+  transition: all .35s;
+}
+
+#btn-banner:hover{
+  color: #fff;
+}
+
+#btn-banner:hover:after{
+  width: 100%;
+}
+
+#btn-banner:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+         
+
+
+
+
+
+/* Animação de digitação */
+
+.typewriter{
+    overflow: hidden;
+    border-right: .15em solid #00ff5f;
+    white-space: nowrap;
+    animation: typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #00ff5f; display: none;}
+}
+
+
+
