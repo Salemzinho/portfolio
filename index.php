@@ -164,9 +164,9 @@
                     <p class="text-white mt-4">Meu Discord que utilizo menos do que gostaria, mas ainda sim estou online as vezes. Me chama lá, vamos jogar algo juntos :D</p>
                 </div>
                 <div class="col-sm-2 mb-5 text-center p-4">
-                    <a href="">
+                    <!-- <a href=""> -->
                         <img src="/assets/img/perfil.jpg" alt="" width="250" height="250">
-                    </a>
+                    <!-- </a> -->
                 </div>
             </div>
         </div>
