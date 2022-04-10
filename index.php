@@ -76,7 +76,7 @@
                 </a>
             </div>
             <div class="col-lg-5">
-                <img class="float-right d-none d-md-block" src="assets/img/undraw_Programming_re_kg9v.svg" width="90%">
+                <img class="float-right d-none d-md-block" src="assets/img/banner-img.svg" width="90%">
             </div>
         </div>
     </div>
