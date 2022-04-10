@@ -62,17 +62,25 @@
     <br><br><br><br><br><br><br>
 
     <div class="container">
-        <h2 class="banner-titulo">Bem vindo!</h2>
-        <h1 class="banner-titulo">Me chamo <b class="cor-verde">Luan Costa</b></h1>
-        <h3 class="typewriter">E sou um <b class="cor-verde">Desenvolvedor</b>.</h3>
-        <hr class="my-4 col-6">
-        <p>Vem dar uma olhada nos projetos que andei realizando por ai :)</p>
-        <a href="https://github.com/Salemzinho">
-            <button class="mt-5 btn-identidade">
-                <span>Meu GitHub</span>
-            </button>
-        </a>
+        <div class="row">
+            <div class="col-lg-7 col-sm-12">
+                <h2 class="banner-titulo">Bem vindo!</h2>
+                <h1 class="banner-titulo">Me chamo <b class="cor-verde">Luan Costa</b></h1>
+                <h3 class="typewriter">E sou um <b class="cor-verde">Desenvolvedor</b>.</h3>
+                <hr class="my-4 col-12">
+                <p>Vem dar uma olhada nos projetos que andei realizando por ai :)</p>
+                <a href="https://github.com/Salemzinho">
+                    <button class="mt-5 btn-identidade">
+                        <span>Meu GitHub</span>
+                    </button>
+                </a>
+            </div>
+            <div class="col-lg-5">
+                <img class="float-right d-none d-md-block" src="assets/img/undraw_Programming_re_kg9v.svg" width="90%">
+            </div>
+        </div>
     </div>
+    
 
     <br><br><br><br><br><br><br><br><br><br>
 
