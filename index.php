@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <script src="https://unpkg.com/scrollreveal"></script>
 
     <title>Salemzinho Portfólio</title>
 
@@ -58,8 +59,8 @@
     <br><br><br><br><br><br><br>
 
     <div class="container">
-        <h2>Bem vindo!</h2>
-        <h1>Me chamo <b class="cor-verde">Luan Costa</b></h1>
+        <h2 class="banner-titulo">Bem vindo!</h2>
+        <h1 class="banner-titulo">Me chamo <b class="cor-verde">Luan Costa</b></h1>
         <h3 class="typewriter">E sou um <b class="cor-verde">Desenvolvedor</b></h3>
         <hr class="my-4 col-6">
         <p>Vem dar uma olhada nos projetos que andei realizando por ai :)</p>
@@ -75,16 +76,16 @@
 
 <div class="jumbotron section-projetos" id="projetos">
     <div class="container">
-    <br><br>
-    <h2 class="text-white text-center mt-5">Meus Projetos</h2>
-    <br><br>
-        <div class="mt-5 col-12">
+        <br><br><br><br>
+        <h2 class="text-white text-center headline">Meus Projetos</h2>
+        <br><br><br><br>
+        <div class="col-12">
             <div class="row">
                 <div class="col-sm-4 mb-5">
-                    <div class="card card-projeto p-3 rounded-0">
+                    <div class="card card-projeto p-3 rounded-0 punchline">
                         <div class="card-body">
                             <h5 class="text-left text-white mb-5">blueDenounces</h5>
-                            <p class="card-text text-muted">💙 Website voltado para denunciar de forma menos burocrática os usuários que compartilham pornografia infantil no Twitter.</p>
+                            <p class="card-text text-muted">💙 Website voltado para denunciar de forma menos burocrática os usuários que compartilham pornografia infantil no Twitter, ajude a causa!</p>
                             <button class="mt-4 col-12 btn-identidade-card">
                                 <span>GitHub</span>
                             </button>
@@ -92,7 +93,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4 mb-5">
-                    <div class="card card-projeto p-3 rounded-0">
+                    <div class="card card-projeto p-3 rounded-0 punchline">
                         <div class="card-body">
                             <h5 class="text-left text-white mb-5">LaraCRUD</h5>
                             <p class="card-text text-muted">👨🏻‍💻 O LaraCRUD é uma reimaginação do Crud feito em Laravel baseado no projeto realizado por Douglas Carlos Men nos artigos da Imasters.</p>
@@ -103,7 +104,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4 mb-5">
-                    <div class="card card-projeto p-3 rounded-0">
+                    <div class="card card-projeto p-3 rounded-0 punchline">
                         <div class="card-body">
                             <h5 class="text-left text-white mb-5">ImóvelP</h5>
                             <p class="card-text text-muted">🧡 Proptech que descomplica a preparação e divulgação do imóvel para o proprietário e a forma de captar imóveis para corretores. Atuo nela como desenvolvedor estágiario. </p>
@@ -115,17 +116,67 @@
                 </div>
             </div>
         </div>
+        <br><br><br><br>
     </div>
 </div>
 
 <div class="jumbotron section-redes-sociais" id="redes-sociais">
     <div class="container">
-    <br><br>
-    <h2 class="text-white text-center">Minhas Redes Sociais</h2>
-     
+        <br><br><br><br>
+        <h2 class="text-white text-center">Minhas Redes Sociais</h2>
+        <br><br><br><br><div class="col-12">
+            <div class="row">
+                <div class="col-sm-3 mb-5 text-center bloco-redes-sociais p-4 redes-um">
+                    <a href="">
+                        <i class="fa-brands fa-instagram fa-5x"></i>
+                    </a>
+                    <p class="text-white mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum cumque id ratione eaque aliquam consequatur quo! Voluptates enim place</p>
+                </div>
+                <div class="col-sm-3 mb-5 text-center bloco-redes-sociais p-4 redes-dois">
+                    <a href="">
+                        <i class="fa-brands fa-linkedin-in fa-5x"></i>
+                    </a>
+                    <p class="text-white mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum cumque id ratione eaque aliquam consequatur quo! Voluptates enim place</p>
+                </div>
+                <div class="col-sm-3 mb-5 text-center bloco-redes-sociais p-4 redes-tres">
+                    <a href="">
+                        <i class="fa-brands fa-discord fa-5x"></i>
+                    </a>
+                    <p class="text-white mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum cumque id ratione eaque aliquam consequatur quo! Voluptates enim place</p>
+                </div>
+                <div class="col-sm-2 mb-5 text-center p-4">
+                    <a href="">
+                        <img src="/assets/img/perfil.jpg" alt="" width="250" height="250">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
     </div>
 </div>
 
+<footer class="col-12">
+    <div class="text-light container">
+        <div class="d-flex">
+            © 2022 Copyright:
+            <a class="font-weight-bold" href="#">Salemzinho</a>
+        </div>
 
+        <div class="d-flex">
+            <a href="#">
+                <i class="fa-brands fa-instagram fa-2x"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-linkedin-in fa-2x"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-discord fa-2x"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+
+<script src="/assets/js/main.js"></script>
 </body>
 </html>
