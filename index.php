@@ -17,9 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Fonte Montserrat -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/varta" rel="stylesheet">
 
     <!-- Boostrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
@@ -32,15 +30,16 @@
 <body>
 
 <div class="jumbotron banner-home">
+
     <nav class="navbar navbar-expand-lg bg-navbar shadow-sm fixed-top">
         <div class="container">
             <a class="navbar-brand me-2 mt-1" href="/">
                 <h4 id="logo"><b class="cor-verde">Salem</b>zinho</h4>
             </a> 
-            <button class="navbar-toggler bg-dark" data-bs-toggle="collapse" data-bs-target="#navbar">
+            <button class="navbar-toggler bg-dark" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <i class="fas fa-bars" style="color: white;"></i>
             </button>
-            <div class="navbar-collapse collapse justify-content-end" id="navbar">
+            <div class="navbar-collapse collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav mr-auto">
                     <li class="m-auto">
                         <a href="#projetos" class="me-4 text-white efeito-hover-menu">
@@ -64,11 +63,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-7 col-sm-12">
-                <h2 class="banner-titulo">Bem vindo!</h2>
+                <h2 class="banner-titulo">Olá!</h2>
                 <h1 class="banner-titulo">Me chamo <b class="cor-verde">Luan Costa</b></h1>
                 <h3 class="typewriter">E sou um <b class="cor-verde">Desenvolvedor</b>.</h3>
                 <hr class="my-4 col-12">
-                <p>Vem dar uma olhada nos projetos que andei realizando por ai :)</p>
+                <p>Vem dar uma olhada nos projetos em que andei realizando por ai :)</p>
                 <a href="https://github.com/Salemzinho">
                     <button class="mt-5 btn-identidade">
                         <span>Meu GitHub</span>
@@ -80,12 +79,28 @@
             </div>
         </div>
     </div>
-    
-
     <br><br><br><br><br><br><br><br><br><br>
-
 </div>
 
+<div class="jumbotron section-sobre-mim" id="sobre-mim">
+    <div class="container">
+        <br><br><br><br>
+        <h2 class="text-white text-center">Sobre mim</h2>
+        <br><br><br><br><div class="col-12">
+            <div class="row">
+                <div class="col-sm-6 mb-5 text-center p-4">
+                    <img src="/assets/img/perfil.jpg" alt="" width="270" height="270">
+                </div>
+                <div class="col-sm-6 mb-5 text-left">
+                    <p class="text-white">Desenvolvedor em desenvolvimento contínuo que busca sempre aprimoramento. Cursando Graduação de Tecnologia em <b class="cor-verde">Análise e Desenvolvimento de Sistemas</b> no Centro Universitário SENAC - Santo Amaro, a concluir em dezembro de 2022.</p>
+                    <p class="text-white">Executando atividades na área de desenvolvimento web, com foco em sistemas front-end e back-end para sites e aplicações. Atualmente estou me aprofundando em Laravel Framework e PHP. Faz parte da minha rotina como desenvolvedor: <b class="cor-verde">HTML5, CSS3, PHP, MySQL, Laravel e Versionamento com Git.</b></p>
+                    <p class="text-white">Desde sempre fui aficionado pelo mundo da tecnologia da informação e ainda muito novo encontrei minha vocação, ser um engenheiro de software. Meu objetivo é simples: <b class="cor-verde">desenvolver soluções</b> para usuários por meio da programação e da internet.</p>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+    </div>
+</div>
 
 <div class="jumbotron section-projetos" id="projetos">
     <div class="container">
@@ -124,7 +139,7 @@
                     <div class="card card-projeto p-3 rounded-0 punchline">
                         <div class="card-body">
                             <h5 class="text-left text-white mb-5">ImóvelP</h5>
-                            <p class="card-text text-muted">🧡 Proptech que descomplica a preparação e divulgação do imóvel para o proprietário e a forma de captar imóveis para corretores. Atuo nela como desenvolvedor estágiario. </p>
+                            <p class="card-text text-muted">🧡 Proptech que descomplica a preparação e divulgação do imóvel para o proprietário e a forma de captar imóveis para corretores. Atuo nela como Desenvolvedor Web. </p>
                             <a href="https://www.imovelp.com.br/">
                                 <button class="mt-4 col-12 btn-identidade-card">
                                     <span>Site</span>
@@ -135,7 +150,25 @@
                 </div>
             </div>
         </div>
-        <br><br><br><br>
+        <br><br>
+    </div>
+</div>
+
+<div class="jumbotron section-galeria" id="galeria">
+    <div class="row m-auto">
+        <h2 class="text-white text-left headline">Galeria</h2>
+        <div class="col-lg-4 col-md-12 mb-4">
+            <img src="assets/img/trabalho-02.png" class="w-100 rounded mb-4">
+            <img src="assets/img/galeria.png" class="w-100 rounded mb-4">
+        </div>
+        <div class="col-lg-4 mb-4">
+            <img src="assets/img/trabalho-01.png" class="w-100 rounded mb-4">
+            <img src="assets/img/galeria.png" class="w-100 rounded mb-4">
+        </div>
+        <div class="col-lg-4 mb-4">
+            <img src="assets/img/galeria.png" class="w-100 rounded mb-4">
+            <img src="assets/img/galeria.png" class="w-100 rounded mb-4">
+        </div>
     </div>
 </div>
 
@@ -145,35 +178,29 @@
         <h2 class="text-white text-center">Minhas Redes Sociais</h2>
         <br><br><br><br><div class="col-12">
             <div class="row">
-                <div class="col-sm-3 mb-5 text-center bloco-redes-sociais p-4 redes-um">
+                <div class="col-sm-4 mb-5 text-center bloco-redes-sociais p-4 redes-um">
                     <a href="https://www.instagram.com/luan_carstairs/">
                         <i class="fa-brands fa-instagram fa-5x"></i>
                     </a>
-                    <p class="text-white mt-4">Meu Instagram pessoal que eu uso para postar besteiras cotidianas. Segue lá, vai :)</p>
+                    <p class="text-white mt-4">Meu Instagram pessoal, uso para postar besteiras cotidianas. Segue lá, vai :)</p>
                 </div>
-                <div class="col-sm-3 mb-5 text-center bloco-redes-sociais p-4 redes-dois">
+                <div class="col-sm-4 mb-5 text-center bloco-redes-sociais p-4 redes-dois">
                     <a href="https://www.linkedin.com/in/luan-costa-de-oliveira-349519200/">
                         <i class="fa-brands fa-linkedin-in fa-5x"></i>
                     </a>
-                    <p class="text-white mt-4">Meu LinkedIn aonde costumo postar projetos e compartilhar minha experiência profissional e acadêmica.</p>
+                    <p class="text-white mt-4">Meu LinkedIn, uso para postar projetos e compartilhar minhas experiências profissionais e acadêmicas.</p>
                 </div>
-                <div class="col-sm-3 mb-5 text-center bloco-redes-sociais p-4 redes-tres">
+                <div class="col-sm-4 mb-5 text-center bloco-redes-sociais p-4 redes-tres">
                     <a href="">
                         <i class="fa-brands fa-discord fa-5x"></i>
                     </a>
-                    <p class="text-white mt-4">Meu Discord que utilizo menos do que gostaria, mas ainda sim estou online as vezes. Me chama lá, vamos jogar algo juntos :D</p>
-                </div>
-                <div class="col-sm-2 mb-5 text-center p-4">
-                    <!-- <a href=""> -->
-                        <img src="/assets/img/perfil.jpg" alt="" width="250" height="250">
-                    <!-- </a> -->
+                    <p class="text-white mt-4">Meu Discord, uso menos do que gostaria, mas ainda sim estou online as vezes. Me chama lá, vamos jogar algo juntos :D</p>
                 </div>
             </div>
         </div>
         <br><br><br><br>
     </div>
 </div>
-
 
 <footer class="text-light col-lg-12 col-sm-12 col-md-12">
     <div class="container d-flex p-3">
@@ -198,6 +225,5 @@
     </div>
 </footer>
 
-<script src="/assets/js/main.js"></script>
 </body>
 </html>
