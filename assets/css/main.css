@@ -1,25 +1,23 @@
 /* Utils */
 
 ::selection {
-  background-color: #00ff5f;
+  background-color: #f4014c;
   color: #fafafa;
 }
-
 
 *{
     font-family: 'Varta';
 }
 
 .cor-verde{
-    color: #00ff5f;
+    color: #f4014c;
 }
 
 .cor-verde-gradiente{
-  background: -webkit-linear-gradient(#00FF5F, #41B06A);
+  background: -webkit-linear-gradient(#f4014c, #41B06A);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 
 .bg-transparent{
     background-color: transparent;
@@ -30,22 +28,14 @@ a{
     color: white;
 }
 
-
 html {
   scroll-behavior: smooth;
 }
 
 .titulo{
     text-decoration: underline;
-    text-decoration-color: #00ff5f;
+    text-decoration-color: #f4014c;
 }
-
-
-
-
-
-
-
 
 /* Scrollbar */
 ::-webkit-scrollbar {
@@ -57,14 +47,9 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #00ff5f;
+  background-color: #f4014c;
   border-radius: 2px;
 }
-
-
-
-
-
 
 /* Navbar */
 .bg-navbar{
@@ -79,7 +64,7 @@ html {
     content: '';
     width: 100%;
     height: 1px;
-    background-color: #00ff5f;
+    background-color: #f4014c;
     border-radius: 4px;
     position: absolute;
     left: 0;
@@ -98,22 +83,13 @@ a{
 }
 
 a:hover{
-    color: #00ff5f;
+    color: #f4014c;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* Banner Home */
 .banner-home{
-    background-image: linear-gradient(to right top, #000000, #060606, #0b0b0b, #101010, #141414);
+    /*background-image: linear-gradient(to right top, #000000, #060606, #0b0b0b, #101010, #141414);*/
+    background-color: black;
     /*Trocar Gradient */   
 }
 
@@ -137,8 +113,8 @@ a:hover{
     display: block;
     padding: 15px 45px;
     background-color: transparent;
-    color: #00ff5f;
-    border: 2px solid #00ff5f;
+    color: #f4014c;
+    border: 2px solid #f4014c;
     letter-spacing: 2px;
     text-align: center;
     position: relative;
@@ -158,7 +134,7 @@ a:hover{
   left: 0;
   width: 0;
   height: 100%;
-  background: #00ff5f;
+  background: #f4014c;
   transition: all .35s;
 }
 
@@ -175,47 +151,37 @@ a:hover{
     text-decoration: none;
 }
 
-
-
-
 /* Section Sobre mim */
 .section-sobre-mim{
-    background-color: #121212;
+    background-color: #191919;
 }
 
 .section-sobre-mim img{
     border-radius: 300px;
-    border: 4px solid #00ff5f;
+    border: 4px solid #f4014c;
 }
-
-
-
-
-
-
-
 
 /* Section Projetos */
 .section-projetos{
-    background-color: #0D0D0D;
+    background-color: #101010;
 }
 
 .card-projeto{
     transition: .4s;
-    background-color: #121212;
+    background-color: #191919;
 }
 
 .card-projeto:hover{
     transition: .4s;
-    border: 1px solid #00ff5f;
+    border: 1px solid #f4014c;
 }
 
 .btn-identidade-card {
     display: block;
     padding: 6px 45px;
     background-color: transparent;
-    color: #00ff5f;
-    border: 2px solid #00ff5f;
+    color: #f4014c;
+    border: 2px solid #f4014c;
     letter-spacing: 2px;
     text-align: center;
     position: relative;
@@ -223,22 +189,13 @@ a:hover{
     font-weight: bold;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* Section Redes Sociais */
 .section-redes-sociais{
     background-color: #121212;
 }
 
 .bloco-redes-sociais{
+    border-radius: 10px;
     transition: .3s;
 }
 
@@ -249,11 +206,8 @@ a:hover{
 
 .section-redes-sociais img{
     border-radius: 300px;
-    border: 4px solid #00ff5f;
+    border: 4px solid #f4014c;
 }
-
-
-
 
 /* Section Redes Sociais */
 .section-galeria{
@@ -264,32 +218,15 @@ a:hover{
     transition: .3s;
 }
 
-
-
-
-
-
-
-
-
-
-
 footer{
     padding: 40px;
-    background-color: #0D0D0D;
+    background-color: #101010;
 }
-
-
-
-
-
-
-
 
 /* Animação de digitação */
 .typewriter{
     overflow: hidden;
-    border-right: .15em solid #00ff5f;
+    border-right: .15em solid #f4014c;
     white-space: nowrap;
     animation: typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
@@ -304,10 +241,37 @@ footer{
 /* The typewriter cursor effect */
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: #00ff5f; display: none;}
+    50% { border-color: #f4014c; display: none;}
+}
+
+#galeria img{
+    transition: .2s;
+    border-radius: 10px;
+}
+
+#galeria img:hover{
+    animation: pulse-animation 1s infinite;
+    border: #f4014c 1px solid; 
+    transition: .2s;
+}
+
+.pulse {
+  animation: pulse-animation 1s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgb(244, 1, 76, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgb(244, 1, 76, 0);
+  }
 }
 
 
+.card{
+    border-radius: 10px;
+}
 
 /*
 #0b0b0b

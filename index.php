@@ -53,7 +53,6 @@
                         </a>
                     </li>
                     <a class="btn btn-dark px-3" href="https://github.com/Salemzinho" role="button"><i class="fab fa-github"></i></a>
-
                 </ul>
             </div>
         </div>
@@ -64,15 +63,12 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-7 col-sm-12">
-                <h2 class="banner-titulo">Olá!</h2>
-                <h1 class="banner-titulo">Me chamo <b class="cor-verde">Luan Costa</b></h1>
-                <h3 class="typewriter">E sou um <b class="cor-verde">Desenvolvedor</b>.</h3>
-                <hr class="my-4 col-12">
-                <p>Vem dar uma olhada nos projetos em que andei realizando por ai :)</p>
-                <a href="https://github.com/Salemzinho">
-                    <button class="mt-5 btn-identidade">
+                <h1 class="banner-titulo">Olá! 👋</h1>
+                <h1 class="banner-titulo">Me chamo <b class="cor-verde">Luan Costa</b>,</h1>
+                <h1 class="typewriter">E sou um <b class="cor-verde">Desenvolvedor</b>.</h1>
+                <p class="mt-5">Vem dar uma olhada nos meus projetos :)</p>
+                <a href="https://github.com/Salemzinho" class="mt-5 btn-identidade col-lg-4">
                         <span>Meu GitHub</span>
-                    </button>
                 </a>
             </div>
             <div class="col-lg-5">
@@ -87,10 +83,11 @@
     <div class="container">
         <br><br><br><br>
         <h2 class="text-white text-center">Sobre mim</h2>
-        <br><br><br><br><div class="col-12">
+        <br><br><br><br>
+        <div class="col-12">
             <div class="row">
-                <div class="col-sm-6 mb-5 text-center p-4">
-                    <img src="/assets/img/perfil.jpg" alt="" width="270" height="270">
+                <div class="col-sm-6 text-center mb-5">
+                    <img src="/assets/img/perfil.jpg" class="m-auto d-block pulse" alt="" width="300" height="300">
                 </div>
                 <div class="col-sm-6 mb-5 text-left">
                     <p class="text-white">Desenvolvedor em desenvolvimento contínuo que busca sempre aprimoramento. Cursando Graduação de Tecnologia em <b class="cor-verde">Análise e Desenvolvimento de Sistemas</b> no Centro Universitário SENAC - Santo Amaro, a concluir em dezembro de 2022.</p>
@@ -111,7 +108,7 @@
         <div class="col-12">
             <div class="row">
                 <div class="col-sm-4 mb-5">
-                    <div class="card card-projeto p-3 rounded-0 punchline">
+                    <div class="card card-projeto p-3 punchline">
                         <div class="card-body">
                             <h5 class="text-left text-white mb-5">blueDenounces</h5>
                             <p class="card-text text-muted">💙 Website voltado para denunciar de forma menos burocrática os usuários que compartilham pornografia infantil no Twitter, ajude a causa!</p>
@@ -124,7 +121,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4 mb-5">
-                    <div class="card card-projeto p-3 rounded-0 punchline">
+                    <div class="card card-projeto p-3 punchline">
                         <div class="card-body">
                             <h5 class="text-left text-white mb-5">LaraCRUD</h5>
                             <p class="card-text text-muted">👨🏻‍💻 O LaraCRUD é uma reimaginação do Crud feito em Laravel baseado no projeto realizado por Douglas Carlos Men nos artigos da Imasters.</p>
@@ -137,9 +134,9 @@
                     </div>
                 </div>
                 <div class="col-sm-4 mb-5">
-                    <div class="card card-projeto p-3 rounded-0 punchline">
+                    <div class="card card-projeto p-3 punchline">
                         <div class="card-body">
-                            <h5 class="text-left text-white mb-5">ImóvelP</h5>
+                            <h5 class="text-left text-white mb-5">Imóvelp <b style="font-size: 14px">(layouts)</b></h5>
                             <p class="card-text text-muted">🧡 Proptech que descomplica a preparação e divulgação do imóvel para o proprietário e a forma de captar imóveis para corretores. Atuo nela como Desenvolvedor Web. </p>
                             <a href="https://www.imovelp.com.br/">
                                 <button class="mt-4 col-12 btn-identidade-card">
